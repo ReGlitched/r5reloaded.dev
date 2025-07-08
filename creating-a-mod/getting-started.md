@@ -2,7 +2,7 @@
 
 ## Creating your first mod
 
-Create a folder named anything you would like, in this case we will call it `ExampleMod`, inside this folder create another folder named `scripts` and a file named `mod.vdf` . `sh_ExampleMod.gnut`&#x20;
+In the r5reloaded mod folder `R5R Library\LIVE\mods` , create a folder named anything you would like, in this case we will call it `ExampleMod`, inside this folder create another folder named `scripts` and a file named `mod.vdf` .
 
 When you do that your file directory should be as follows:
 
