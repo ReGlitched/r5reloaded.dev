@@ -11,7 +11,7 @@
   * [Models](modding/repak/models.md)
   * [Materials](modding/repak/materials.md)
   * [Textures](modding/repak/textures.md)
-  * [ShaderSet](modding/repak/shaderset.md)
+  * [Shaders](modding/repak/shaders.md)
   * [UI](modding/repak/ui.md)
   * [Settings](modding/repak/settings.md)
   * [DataTables](modding/repak/datatables.md)
