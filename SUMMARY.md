@@ -3,11 +3,11 @@
 * [R5Reloaded Dev](README.md)
 * [Info](info.md)
 
-## Getting Started
+## Creating a mod
 
-* [Getting Started](getting-started/getting-started.md)
-* [Main Scripts](getting-started/main-scripts.md)
-* [Scripting](getting-started/scripting.md)
+* [Getting Started](creating-a-mod/getting-started.md)
+* [Main Scripts](creating-a-mod/main-scripts.md)
+* [Scripting](creating-a-mod/scripting.md)
 
 ## Modding
 
