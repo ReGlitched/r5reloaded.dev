@@ -1,2 +1,6 @@
-# r5reloaded.dev
-r5reloaded modding docs
+---
+description: Welcome to the R5Reloaded mod documentation.
+---
+
+# R5Reloaded Dev
+
