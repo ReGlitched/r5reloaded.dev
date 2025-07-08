@@ -31,7 +31,7 @@ ExampleMod/
 ```
 
 Inside that txt you can define weapon settings and variables any way you would like. In this case we will create a silenced pistol. \
-For now you can use this file, either replace the txt in the folder or copy and paste the contents of this into your weapon script:
+For now you can use this file, copy and paste the contents of this into your weapon script:
 
 {% file src="../.gitbook/assets/mp_weapon_WeaponName.txt" %}
 
