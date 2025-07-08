@@ -6,6 +6,17 @@ description: how to register and run custom scripts with the mod system
 
 ### Creating Custom Script Mods <a href="#f0-9f-93-9c-creating-custom-scripts" id="f0-9f-93-9c-creating-custom-scripts"></a>
 
+By now your directory should be as follows:
+
+```
+ExampleMod/
+├── mod.vdf
+└── scripts/
+    └── vscripts/
+        ├── scripts.rson
+        └── sh_ExampleMod.gnut
+```
+
 #### Setting up `scripts.rson` <a href="#id-1-ef-b8-8f-e2-83-a3-create-a-scriptsrson-file" id="id-1-ef-b8-8f-e2-83-a3-create-a-scriptsrson-file"></a>
 
 This file defines what scripts should be loaded when the game starts.
@@ -74,3 +85,7 @@ void function UICodeCallback_examplemod_ModInit()
 * Always **globalize** your callback functions at the top.
 * The script codecallback name is determined from the 'id' field in mod.vdf. Make sure it's renamed correctly.
 * Use conditional compilation (`#if UI`, `#if SERVER`, `#if CLIENT`) to separate logic properly.
+
+{% content-ref url="scripting.md" %}
+[scripting.md](scripting.md)
+{% endcontent-ref %}

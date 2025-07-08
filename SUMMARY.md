@@ -3,10 +3,14 @@
 * [R5Reloaded Dev](README.md)
 * [Info](info.md)
 
+## Getting Started
+
+* [Getting Started](getting-started/getting-started.md)
+* [Main Scripts](getting-started/main-scripts.md)
+* [Scripting](getting-started/scripting.md)
+
 ## Modding
 
-* [Getting Started](modding/getting-started.md)
-* [Main Scripts](modding/main-scripts.md)
 * [RePak](modding/repak/README.md)
   * [Animations](modding/repak/animations.md)
   * [Models](modding/repak/models.md)
