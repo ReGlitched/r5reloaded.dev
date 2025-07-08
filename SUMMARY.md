@@ -1,11 +1,12 @@
 # Table of contents
 
 * [R5Reloaded Dev](README.md)
+* [Info](info.md)
 
 ## Modding
 
 * [Getting Started](modding/getting-started.md)
-* [Scripting](modding/scripting.md)
+* [Main Scripts](modding/main-scripts.md)
 * [RePak](modding/repak/README.md)
   * [Animations](modding/repak/animations.md)
   * [Models](modding/repak/models.md)
