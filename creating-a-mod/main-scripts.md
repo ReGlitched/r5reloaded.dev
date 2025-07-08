@@ -39,36 +39,34 @@ Scripts:
 Inside your main script (e.g., `sh_ExampleMod.gnut`), define the following **standard callbacks**:
 
 ```
+#if UI
+global function UICodeCallback_examplemod_ModInit
+#endif
+
 #if SERVER
-global function CodeCallback_examplemod_ModInit()
+global function CodeCallback_examplemod_ModInit
 #endif
 
 #if CLIENT
-global function ClientCodeCallback_examplemod_ModInit()
+global function ClientCodeCallback_examplemod_ModInit
 #endif
 
 #if UI
-global function UICodeCallback_examplemod_ModInit()
+void function UICodeCallback_examplemod_ModInit()
+{
+}
 #endif
 
 #if SERVER
 void function CodeCallback_examplemod_ModInit()
 {
-
+    PrecacheWeapon( $"mp_weapon_WeaponName" )
 }
 #endif
 
 #if CLIENT
 void function ClientCodeCallback_examplemod_ModInit()
 {
-
-}
-#endif
-
-#if UI
-void function UICodeCallback_examplemod_ModInit()
-{
-
 }
 #endif
 ```
