@@ -54,19 +54,21 @@ global function ClientCodeCallback_examplemod_ModInit
 #if UI
 void function UICodeCallback_examplemod_ModInit()
 {
+
 }
 #endif
 
 #if SERVER
 void function CodeCallback_examplemod_ModInit()
 {
-    PrecacheWeapon( $"mp_weapon_WeaponName" )
+
 }
 #endif
 
 #if CLIENT
 void function ClientCodeCallback_examplemod_ModInit()
 {
+
 }
 #endif
 ```
